@@ -1,6 +1,6 @@
 
 <h1 align="center">
-AcadHomepageeee
+AcadHomepageeeee
 </h1>
 
 <div align="center">
