@@ -1,0 +1,197 @@
+metadata:
+  scholar_user_id: EchdyZEAAAAJ
+  author_name: Vincent Tao Hu
+  source_url: https://scholar.google.com/citations?user=EchdyZEAAAAJ&hl=en
+  last_updated: '2026-11-08'
+  fetched_at: '2026-11-08T15:18:51+00:00'
+  publication_count: 44
+summary:
+  total_citations: 1781
+  h_index: 18
+  i10_index: 25
+papers:
+  EchdyZEAAAAJ:r0BpntZqJG4C:
+    title: 'ZigMa: A DiT-style Zigzag Mamba Diffusion Model'
+    year: '2024'
+    citations: 287
+  EchdyZEAAAAJ:Zph67rFs4hoC:
+    title: 'Pointmixup: Augmentation for point clouds'
+    year: '2020'
+    citations: 276
+  EchdyZEAAAAJ:ns9cj8rnVeAC:
+    title: 'DepthFM: Fast Generative Monocular Depth Estimation with Flow Matching'
+    year: '2025'
+    citations: 200
+  EchdyZEAAAAJ:Se3iqnhoufwC:
+    title: Attention-based multi-context guiding for few-shot semantic segmentation
+    year: '2019'
+    citations: 186
+  EchdyZEAAAAJ:TFP_iSt0sucC:
+    title: 'Diffusion Models and Representation Learning: A Survey'
+    year: '2026'
+    citations: 106
+  EchdyZEAAAAJ:R3hNpaxXUhUC:
+    title: Self-guided diffusion models
+    year: '2023'
+    citations: 65
+  EchdyZEAAAAJ:MXK_kJrjxJIC:
+    title: Localizing the Common Action Among a Few Videos
+    year: '2020'
+    citations: 65
+  EchdyZEAAAAJ:-f6ydRqryjwC:
+    title: Motion Flow Matching for Human Motion Synthesis and Editing
+    year: '2023'
+    citations: 59
+  EchdyZEAAAAJ:YOwf2qJgpHMC:
+    title: 'Silco: Show a few images, localize the common object'
+    year: '2019'
+    citations: 59
+  EchdyZEAAAAJ:mVmsd5A6BfQC:
+    title: Latent space editing in transformer-based flow matching
+    year: '2023'
+    citations: 56
+  EchdyZEAAAAJ:BqipwSGYUEgC:
+    title: Boosting latent diffusion with flow matching
+    year: '2024'
+    citations: 54
+  EchdyZEAAAAJ:RYcK_YlVTxYC:
+    title: Can Prompt Difficulty be Online Predicted for Accelerating RL Finetuning
+      of Reasoning Models?
+    year: '2026'
+    citations: 50
+  EchdyZEAAAAJ:iH-uZ7U-co4C:
+    title: Continuous, Subject-Specific Attribute Control in T2I Models by Identifying
+      Semantic Directions
+    year: '2025'
+    citations: 48
+  EchdyZEAAAAJ:e5wmG9Sq2KIC:
+    title: Flow Matching for Conditional Text Generation in a Few Sampling Steps
+    year: '2024'
+    citations: 46
+  EchdyZEAAAAJ:M3ejUd6NZC8C:
+    title: Accelerating Convolutional Neural Networks with Dynamic Channel Pruning.
+    year: '2019'
+    citations: 36
+  EchdyZEAAAAJ:maZDTaKrznsC:
+    title: Distillation of Diffusion Features for Semantic Correspondence
+    year: '2024'
+    citations: 19
+  EchdyZEAAAAJ:ULOm3_A8WrAC:
+    title: Self-supervised Video Representation Learning with Cross-Stream Prototypical
+      Contrasting
+    year: '2021'
+    citations: 19
+  EchdyZEAAAAJ:hMod-77fHWUC:
+    title: 'TREAD: Token Routing for Efficient Architecture-agnostic Diffusion Training'
+    year: '2025'
+    citations: 18
+  EchdyZEAAAAJ:TQgYirikUcIC:
+    title: Training Class-Imbalanced Diffusion Model Via Overlap Optimization
+    year: '2024'
+    citations: 17
+  EchdyZEAAAAJ:bEWYMUwI8FkC:
+    title: 'ScribbleGen: Generative Data Augmentation Improves Scribble-supervised
+      Semantic Segmentation'
+    year: ''
+    citations: 16
+  EchdyZEAAAAJ:k_IJM867U9cC:
+    title: 'Retinex-Diffusion: On Controlling Illumination Conditions in Diffusion
+      Models via Retinex Theory'
+    year: '2025'
+    citations: 15
+  EchdyZEAAAAJ:qxL8FJ1GzNcC:
+    title: Sobel heuristic kernel for aerial semantic segmentation
+    year: '2018'
+    citations: 14
+  EchdyZEAAAAJ:YFjsv_pBGBYC:
+    title: 'MaskFlow: Discrete Flows For Flexible and Efficient Long Video Generation'
+    year: '2025'
+    citations: 12
+  EchdyZEAAAAJ:qUcmZB5y_30C:
+    title: Guided Diffusion from Self-Supervised Diffusion Features
+    year: '2023'
+    citations: 12
+  EchdyZEAAAAJ:NMxIlDl6LWMC:
+    title: Does VLM Classification Benefit from LLM Description Semantics?
+    year: '2024'
+    citations: 10
+  EchdyZEAAAAJ:J_g5lzvAfSwC:
+    title: 'ActAlign: Zero-Shot Fine-Grained Video Classification via Language-Guided
+      Sequence Alignment'
+    year: '2025'
+    citations: 9
+  EchdyZEAAAAJ:5nxA0vEk-isC:
+    title: Interactivity Proposals for Surveillance Videos
+    year: '2020'
+    citations: 7
+  EchdyZEAAAAJ:M3NEmzRMIkIC:
+    title: Scaling Image Tokenizers with Grouped Spherical Quantization
+    year: '2024'
+    citations: 6
+  EchdyZEAAAAJ:ufrVoPGSRksC:
+    title: 'Dense In Dense: Training Segmentation from Scratch'
+    year: '2019'
+    citations: 4
+  EchdyZEAAAAJ:GnPB-g6toBAC:
+    title: 'ToddlerDiffusion: Interactive Structured Image Generation with Cascaded
+      Schrödinger Bridge'
+    year: ''
+    citations: 4
+  EchdyZEAAAAJ:pqnbT2bcN3wC:
+    title: 'From State to Action: OODA-Tool for Reliable Multi-Turn Tool Use'
+    year: '2026'
+    citations: 2
+  EchdyZEAAAAJ:3s1wT3WcHBgC:
+    title: 'GramLoop: Training-Free Gram-Gated Replay for Robust Dense Prediction'
+    year: '2026'
+    citations: 1
+  EchdyZEAAAAJ:ZHo1McVdvXMC:
+    title: Training-Free Hidden-State Refinement for Flow-Matching Image Generators
+    year: '2026'
+    citations: 1
+  EchdyZEAAAAJ:HoB7MX3m0LUC:
+    title: Guiding Token-Sparse Diffusion Models
+    year: '2026'
+    citations: 1
+  EchdyZEAAAAJ:lSLTfruPkqcC:
+    title: 'Purrception: Variational Flow Matching for Vector-Quantized Image Generation'
+    year: '2026'
+    citations: 1
+  EchdyZEAAAAJ:SeFeTyx0c_EC:
+    title: Diversifying Similar Subjects for Text-to-Image Synthesis with Self-Cross
+      Diffusion Guidance and Reward
+    year: '2026'
+    citations: 0
+  EchdyZEAAAAJ:g5m5HwL7SMYC:
+    title: Contrastive-Augmented Flow Matching for Style-Content Disentanglement
+    year: '2026'
+    citations: 0
+  EchdyZEAAAAJ:rO6llkc54NcC:
+    title: Stochastic Interpolants for Revealing Stylistic Flows Across the History
+      of Art
+    year: '2025'
+    citations: 0
+  EchdyZEAAAAJ:blknAaTinKkC:
+    title: '[MASK] is All You Need'
+    year: '2024'
+    citations: 0
+  EchdyZEAAAAJ:ZeXyd9-uunAC:
+    title: Generative Data Augmentation Improves Scribble-supervised Semantic Segmentation
+    year: '2023'
+    citations: 0
+  EchdyZEAAAAJ:7PzlFSSx8tAC:
+    title: Query by Activity Video in the Wild
+    year: '2023'
+    citations: 0
+  EchdyZEAAAAJ:RGFaLdJalmkC:
+    title: ThomasMensink, Pascal Mettes, Pengwan Yang, and Cees GMSnoek
+    year: '2020'
+    citations: 0
+  EchdyZEAAAAJ:Wp0gIr-vW9MC:
+    title: Video Classification from scratch
+    year: '2018'
+    citations: 0
+  EchdyZEAAAAJ:mB3voiENLucC:
+    title: Localizing the Common Action Among a Few Videos-Supplementary File
+    year: ''
+    citations: 0
