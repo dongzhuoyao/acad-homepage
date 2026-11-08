@@ -1,30 +1,59 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+on:
+  push:
+    branches: [main]
+    paths:
+      - google_scholar_crawler/**
+      - .github/workflows/google_scholar_crawler.yaml
+  pull_request:
+    paths:
+      - google_scholar_crawler/**
+      - .github/workflows/google_scholar_crawler.yaml
+  schedule:
+    - cron: '0 8 * * *' # Preserve the daily 16:00 China time schedule.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-    - uses: actions/checkout@v3
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ./results
-        git config --global user.email "thu@example.com"
-        git config --global user.name "thu"
-        git init
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-        git add *.json
-        git commit -m "Updated Citation Data"
-        git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: google_scholar_crawler/requirements.txt
+      - name: Install collector dependencies
+        run: python -m pip install -r google_scholar_crawler/requirements.txt
+      - name: Test collector and endpoint compatibility
+        run: python -m unittest discover -s google_scholar_crawler/tests -v
+      - name: Check out existing citation data
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: google-scholar-stats
+          path: citation-data
+      - name: Collect current citations
+        if: github.event_name != 'pull_request'
+        run: python google_scholar_crawler/main.py --output-dir citation-data
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || 'EchdyZEAAAAJ' }}
+      - name: Publish complete snapshot
+        if: github.event_name != 'pull_request'
+        working-directory: citation-data
+        run: |
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git add gs_data.json gs_data_shieldsio.json citations.yml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Update Google Scholar citation snapshot'
+          git push origin HEAD:google-scholar-stats
