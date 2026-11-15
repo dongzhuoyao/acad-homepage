@@ -2,30 +2,30 @@ metadata:
   scholar_user_id: EchdyZEAAAAJ
   author_name: Vincent Tao Hu
   source_url: https://scholar.google.com/citations?user=EchdyZEAAAAJ&hl=en
-  last_updated: '2026-11-08'
-  fetched_at: '2026-11-08T15:18:51+00:00'
+  last_updated: '2026-11-15'
+  fetched_at: '2026-11-15T15:29:49+00:00'
   publication_count: 44
 summary:
-  total_citations: 1781
+  total_citations: 1801
   h_index: 18
   i10_index: 25
 papers:
   EchdyZEAAAAJ:r0BpntZqJG4C:
     title: 'ZigMa: A DiT-style Zigzag Mamba Diffusion Model'
     year: '2024'
-    citations: 287
+    citations: 291
   EchdyZEAAAAJ:Zph67rFs4hoC:
     title: 'Pointmixup: Augmentation for point clouds'
     year: '2020'
-    citations: 276
+    citations: 277
   EchdyZEAAAAJ:ns9cj8rnVeAC:
     title: 'DepthFM: Fast Generative Monocular Depth Estimation with Flow Matching'
     year: '2025'
-    citations: 200
+    citations: 204
   EchdyZEAAAAJ:Se3iqnhoufwC:
     title: Attention-based multi-context guiding for few-shot semantic segmentation
     year: '2019'
-    citations: 186
+    citations: 187
   EchdyZEAAAAJ:TFP_iSt0sucC:
     title: 'Diffusion Models and Representation Learning: A Survey'
     year: '2026'
@@ -41,7 +41,7 @@ papers:
   EchdyZEAAAAJ:-f6ydRqryjwC:
     title: Motion Flow Matching for Human Motion Synthesis and Editing
     year: '2023'
-    citations: 59
+    citations: 63
   EchdyZEAAAAJ:YOwf2qJgpHMC:
     title: 'Silco: Show a few images, localize the common object'
     year: '2019'
@@ -58,16 +58,16 @@ papers:
     title: Can Prompt Difficulty be Online Predicted for Accelerating RL Finetuning
       of Reasoning Models?
     year: '2026'
-    citations: 50
+    citations: 51
   EchdyZEAAAAJ:iH-uZ7U-co4C:
     title: Continuous, Subject-Specific Attribute Control in T2I Models by Identifying
       Semantic Directions
     year: '2025'
-    citations: 48
+    citations: 49
   EchdyZEAAAAJ:e5wmG9Sq2KIC:
     title: Flow Matching for Conditional Text Generation in a Few Sampling Steps
     year: '2024'
-    citations: 46
+    citations: 47
   EchdyZEAAAAJ:M3ejUd6NZC8C:
     title: Accelerating Convolutional Neural Networks with Dynamic Channel Pruning.
     year: '2019'
@@ -93,7 +93,7 @@ papers:
     title: 'ScribbleGen: Generative Data Augmentation Improves Scribble-supervised
       Semantic Segmentation'
     year: ''
-    citations: 16
+    citations: 17
   EchdyZEAAAAJ:k_IJM867U9cC:
     title: 'Retinex-Diffusion: On Controlling Illumination Conditions in Diffusion
       Models via Retinex Theory'
@@ -120,14 +120,14 @@ papers:
       Sequence Alignment'
     year: '2025'
     citations: 9
+  EchdyZEAAAAJ:M3NEmzRMIkIC:
+    title: Scaling Image Tokenizers with Grouped Spherical Quantization
+    year: '2024'
+    citations: 7
   EchdyZEAAAAJ:5nxA0vEk-isC:
     title: Interactivity Proposals for Surveillance Videos
     year: '2020'
     citations: 7
-  EchdyZEAAAAJ:M3NEmzRMIkIC:
-    title: Scaling Image Tokenizers with Grouped Spherical Quantization
-    year: '2024'
-    citations: 6
   EchdyZEAAAAJ:ufrVoPGSRksC:
     title: 'Dense In Dense: Training Segmentation from Scratch'
     year: '2019'
@@ -141,6 +141,10 @@ papers:
     title: 'From State to Action: OODA-Tool for Reliable Multi-Turn Tool Use'
     year: '2026'
     citations: 2
+  EchdyZEAAAAJ:lSLTfruPkqcC:
+    title: 'Purrception: Variational Flow Matching for Vector-Quantized Image Generation'
+    year: '2026'
+    citations: 2
   EchdyZEAAAAJ:3s1wT3WcHBgC:
     title: 'GramLoop: Training-Free Gram-Gated Replay for Robust Dense Prediction'
     year: '2026'
@@ -151,10 +155,6 @@ papers:
     citations: 1
   EchdyZEAAAAJ:HoB7MX3m0LUC:
     title: Guiding Token-Sparse Diffusion Models
-    year: '2026'
-    citations: 1
-  EchdyZEAAAAJ:lSLTfruPkqcC:
-    title: 'Purrception: Variational Flow Matching for Vector-Quantized Image Generation'
     year: '2026'
     citations: 1
   EchdyZEAAAAJ:SeFeTyx0c_EC:
