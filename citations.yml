@@ -2,18 +2,18 @@ metadata:
   scholar_user_id: EchdyZEAAAAJ
   author_name: Vincent Tao Hu
   source_url: https://scholar.google.com/citations?user=EchdyZEAAAAJ&hl=en
-  last_updated: '2026-11-15'
-  fetched_at: '2026-11-15T15:29:49+00:00'
+  last_updated: '2026-11-16'
+  fetched_at: '2026-11-16T18:10:35+00:00'
   publication_count: 44
 summary:
-  total_citations: 1801
+  total_citations: 1807
   h_index: 18
   i10_index: 25
 papers:
   EchdyZEAAAAJ:r0BpntZqJG4C:
     title: 'ZigMa: A DiT-style Zigzag Mamba Diffusion Model'
     year: '2024'
-    citations: 291
+    citations: 292
   EchdyZEAAAAJ:Zph67rFs4hoC:
     title: 'Pointmixup: Augmentation for point clouds'
     year: '2020'
@@ -21,7 +21,7 @@ papers:
   EchdyZEAAAAJ:ns9cj8rnVeAC:
     title: 'DepthFM: Fast Generative Monocular Depth Estimation with Flow Matching'
     year: '2025'
-    citations: 204
+    citations: 206
   EchdyZEAAAAJ:Se3iqnhoufwC:
     title: Attention-based multi-context guiding for few-shot semantic segmentation
     year: '2019'
@@ -29,7 +29,7 @@ papers:
   EchdyZEAAAAJ:TFP_iSt0sucC:
     title: 'Diffusion Models and Representation Learning: A Survey'
     year: '2026'
-    citations: 106
+    citations: 107
   EchdyZEAAAAJ:R3hNpaxXUhUC:
     title: Self-guided diffusion models
     year: '2023'
@@ -67,7 +67,7 @@ papers:
   EchdyZEAAAAJ:e5wmG9Sq2KIC:
     title: Flow Matching for Conditional Text Generation in a Few Sampling Steps
     year: '2024'
-    citations: 47
+    citations: 48
   EchdyZEAAAAJ:M3ejUd6NZC8C:
     title: Accelerating Convolutional Neural Networks with Dynamic Channel Pruning.
     year: '2019'
@@ -140,7 +140,7 @@ papers:
   EchdyZEAAAAJ:pqnbT2bcN3wC:
     title: 'From State to Action: OODA-Tool for Reliable Multi-Turn Tool Use'
     year: '2026'
-    citations: 2
+    citations: 3
   EchdyZEAAAAJ:lSLTfruPkqcC:
     title: 'Purrception: Variational Flow Matching for Vector-Quantized Image Generation'
     year: '2026'

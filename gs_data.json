@@ -9,16 +9,16 @@
   "scholar_id": "EchdyZEAAAAJ",
   "source": "AUTHOR_PROFILE_PAGE",
   "name": "Vincent Tao Hu",
-  "citedby": 1801,
+  "citedby": 1807,
   "hindex": 18,
   "i10index": 25,
-  "updated": "2026-11-15T15:29:49+00:00",
+  "updated": "2026-11-16T18:10:35+00:00",
   "metadata": {
     "scholar_user_id": "EchdyZEAAAAJ",
     "author_name": "Vincent Tao Hu",
     "source_url": "https://scholar.google.com/citations?user=EchdyZEAAAAJ&hl=en",
-    "last_updated": "2026-11-15",
-    "fetched_at": "2026-11-15T15:29:49+00:00",
+    "last_updated": "2026-11-16",
+    "fetched_at": "2026-11-16T18:10:35+00:00",
     "publication_count": 44
   },
   "publications": {
@@ -31,7 +31,7 @@
       },
       "filled": false,
       "author_pub_id": "EchdyZEAAAAJ:r0BpntZqJG4C",
-      "num_citations": 291,
+      "num_citations": 292,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9054506729148885957",
       "cites_id": [
         "9054506729148885957"
@@ -62,7 +62,7 @@
       },
       "filled": false,
       "author_pub_id": "EchdyZEAAAAJ:ns9cj8rnVeAC",
-      "num_citations": 204,
+      "num_citations": 206,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12856849555261662094",
       "cites_id": [
         "12856849555261662094"
@@ -92,7 +92,7 @@
       },
       "filled": false,
       "author_pub_id": "EchdyZEAAAAJ:TFP_iSt0sucC",
-      "num_citations": 106,
+      "num_citations": 107,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6704818531139188408",
       "cites_id": [
         "6704818531139188408"
@@ -229,7 +229,7 @@
       },
       "filled": false,
       "author_pub_id": "EchdyZEAAAAJ:e5wmG9Sq2KIC",
-      "num_citations": 47,
+      "num_citations": 48,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15522119205512040101",
       "cites_id": [
         "15522119205512040101"
@@ -485,7 +485,7 @@
       },
       "filled": false,
       "author_pub_id": "EchdyZEAAAAJ:pqnbT2bcN3wC",
-      "num_citations": 2,
+      "num_citations": 3,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2017500604692770906",
       "cites_id": [
         "2017500604692770906"
@@ -651,7 +651,7 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 1745,
+  "citedby5y": 1751,
   "hindex5y": 18,
   "i10index5y": 24,
   "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=EchdyZEAAAAJ&citpid=10",
@@ -670,6 +670,6 @@
     "2023": 141,
     "2024": 239,
     "2025": 534,
-    "2026": 625
+    "2026": 631
   }
 }
