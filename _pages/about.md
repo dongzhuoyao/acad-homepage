@@ -8,10 +8,11 @@ redirect_from:
   - /about.html
 ---
 
+{% assign gsDataRepository = site.google_scholar_stats_repository | default: site.repository %}
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: gsDataRepository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: gsDataRepository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 

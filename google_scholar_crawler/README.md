@@ -1,5 +1,14 @@
 # Citation collector
 
+The scheduled collector moved to
+[dongzhuoyao/taohu.me](https://github.com/dongzhuoyao/taohu.me/tree/master/google_scholar_crawler)
+on 2026-11-20. Run and maintain it there. This repository no longer runs the
+citation workflow; its `google-scholar-stats` branch is a historical snapshot.
+The homepage reads current data from the destination repository through
+`google_scholar_stats_repository` in `_config.yml`.
+
+The implementation below is retained for reference and manual recovery.
+
 The collector on `main` reads the public Google Scholar profile and publishes a
 complete snapshot to `google-scholar-stats`. It uses the validated parser from
 the Tao Hu website collector and does not require `scholarly` or `bibtexparser`.

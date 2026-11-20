@@ -33,10 +33,9 @@ Some examples:
 ## Quick Start
 
 1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
+1. Citation collection now runs in [dongzhuoyao/taohu.me](https://github.com/dongzhuoyao/taohu.me/tree/master/google_scholar_crawler), daily at 08:00 UTC (16:00 China time).
+    1. Follow that repository's collector instructions to change the Scholar ID or run a refresh.
+    1. Set `google_scholar_stats_repository` in `_config.yml` to the repository serving the data. This fork uses `dongzhuoyao/taohu.me`; the old stats branch is retained as a historical snapshot.
 1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
 1. Modify the configuration of your homepage `_config.yml`:
     1. `title`: the title of your homepage
